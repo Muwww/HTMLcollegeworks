@@ -1,0 +1,19 @@
+.main {
+	position: fixed;
+}
+@font-face {
+	font-family: Busy;
+	src: url(Busy.ttf);
+}
+body {
+	background-size: cover;
+	background-image: url(wew.jpg);
+}
+button {
+	font-size: 100%;
+	border-style: none;
+	width: 75px;
+	height: 40px;
+	font-family: Busy;
+	background-color: #B22222;
+}

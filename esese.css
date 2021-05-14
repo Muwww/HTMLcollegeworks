@@ -1,0 +1,27 @@
+body {
+	background-color: white;
+}
+caption {
+	font-style: italic;
+}
+table {
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+	border-style: groove;
+	border-spacing: 0px;
+	border-color: #D3D3D3;
+}
+.lefttext {
+	text-align: left;
+	font-size: 20px;
+}
+.grey {
+	background-color: #D3D3D3;
+}
+.white {
+	background-color: white;
+}
+.zhir {
+	font-weight: bold;
+}

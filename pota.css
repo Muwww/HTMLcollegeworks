@@ -1,0 +1,95 @@
+		.main {
+			background: url(menu.png);
+			position: fixed;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			border-spacing: 0;
+		}
+		html, body {
+			margin: 0;
+			padding: 0;
+			background-size: cover;
+			background-color: #00CED1;
+			background: url(background.jpg) no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		.rbut {
+			font-size: 25px;
+			background: repeating-linear-gradient(to right, red, orange, red, orange, red);
+			background-size: 400% 400%;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			animation: rainbo 10s linear infinite;
+			-webkit-animation: rainbo 10s linear infinite;
+		}
+		table {
+			background-size: cover;
+
+		}
+		.nun {
+			font-size:35;
+			font-family: Busy;
+			font-style: bold;
+			width: 600px;
+			text-align: center;
+		}
+		.tab {
+			padding-top: 70px;
+			border-spacing: 15px;
+		}
+		.cap2 {
+			position: relative;
+			font-size: 35;
+			font-family: Busy;
+			padding-top: 10px;
+			width: 150px;
+			height: 30px;
+			padding-bottom: 5px;
+		}
+		@keyframes rainbo {
+			0% {background-position: 0% 50%}
+			50% {background-position: 100% 50%}
+			100% {background-position: 0% 50%}
+		}
+		@-webkit-keyframes rainbo {
+			0% {background-position: 0% 50%}
+			50% {background-position: 100% 50%}
+			100% {background-position: 0% 50%}
+		}
+		.rainbow {
+			background: repeating-linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+			background-size: 400% 400%;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			animation: rainbo 20s ease infinite;
+			-webkit-animation: rainbo 20s ease infinite;
+		}
+		button {
+			font-weight: bold;
+			position: relative;
+			width: 70;
+			height: 50;
+			border: none;
+			font-size: 20;
+			font-family: Busy;
+			border-bottom: 10px black;
+		}
+		@font-face {
+			font-family: Busy;
+			src: url(Busy.ttf);
+		}
+		.scream {position: relative; opacity: 100%;}
+		.green {background: green;}
+		.pink {background: pink;}
+		.white {background: white;}
+		.black {background: black;}
+		.orange {background: orange;}
+		.red {background: #B22222;		}
+		.img {
+			width: 150px;
+			height: 200px;
+		}

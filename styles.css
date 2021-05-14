@@ -1,0 +1,19 @@
+@keyframes pandoser {
+    0% {
+        background-image: url("rebackground.jpg");
+    }
+
+    50% {
+        background-image: url("wallaw.png"); 
+    }
+
+    100% {
+        background-image: url("rebackground.jpg");
+    }
+}
+body {
+animation: pandoser 20s linear infinite alternate;
+background-position: 0px 70% !important;
+background-size: cover;
+background-repeat: no-repeat;
+}
